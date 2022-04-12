@@ -1,26 +1,50 @@
 Thus far we have learned about
 
-DevOps and SRE concepts
+* DevOps and SRE concepts
+* Worked with git bash and GitHub
+* Basic commands for git bash terminal learned so far include but are not limited to:
+    git push
+    git pull
+    git add .
+    git commit -m "message here"
+    git branch
+    git switch
+    git fetch
+    git status
+    git branch -a
+    git branch -r
+    git diff origin/main
+    git merge origin/main
+    git pull -u origin branch-name
+    git push --set-upstream origin new-branch
 
-Worked with git bash and GitHub
-Basic commands for git bash terminal learned so far include but are not limited to:
-git push
-git pull
-git add .
-git commit -m "message here"
-git branch
-git switch
-git fetch
-git status
-git branch -a
-git branch -r
-git diff origin/main
-git merge origin/main
-git pull -u origin branch-name
-git push --set-upstream origin new-branch
+* Learned about local and remote repositories and their differences.
 
-Learned about local and remote repositories and their differences.
+    Also, how the two can be synced from the local machine with git bash, or remotely, through GitHub.
+    We can clone an existing repo and build upon it, or create a new one from scratch.
 
-Also, how the two can be synced from the local machine with git bash, or remotely, through GitHub.
-We can clone an existing repo and build upon it, or create a new one from scratch.
-Other topics include commands, branch creation, text file creation and addition to the branch, upstream, issues creation
+* Other topics include:
+
+    Commands
+    Branch creation
+    Text file creation and addition to the branch
+    Upstream
+    Issues creation
+
+* Jenkins
+
+    • Best practices:
+		○ Automate deployment
+		○ Proper monitoring system
+		○ Redundancy is necessary -- Different environments: Dev, UAT, Prod
+		○ Infrastructure as a code (SRE job)
+                ○ Create environment on demand
+    • Concepts:
+                ○ Continuous Integration
+		○ Continuous Delivery
+		○ Continuous Deployment
+
+    • Jenkins Installation and setup
+    • Creation of new projects in Jenkins
+    • Integrate Git repo with Jenkins              
+    • Scheduling crontab
