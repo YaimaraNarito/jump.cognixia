@@ -48,3 +48,6 @@ Thus far we have learned about
     • Creation of new projects in Jenkins
     • Integrate Git repo with Jenkins              
     • Scheduling crontab
+    * Create sequential jobs upstream and downstream 
+    * Matrix-Based Security Managing Users and granting permissions
+    * Project-base matrix security enable/disable
