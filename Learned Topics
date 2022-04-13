@@ -51,3 +51,19 @@ Thus far we have learned about
     * Create sequential jobs upstream and downstream 
     * Matrix-Based Security Managing Users and granting permissions
     * Project-base matrix security enable/disable
+    * Role-Base access strategy
+      * Install Role-Based Authorization Strategy plugin
+      * Manage Jenkins
+      * Configure Global Security
+          * Check Role-base Strategy
+       * Manage and Assign Roles
+	  * Manage Roles
+		* Add roles --> save
+       * Assign Role
+          * Add User --> Assign Role
+     * Pipilines
+     * DevOps -- Azure
+        * The cloud part of DevOps
+	* Linking Azure Repo 
+     
+
